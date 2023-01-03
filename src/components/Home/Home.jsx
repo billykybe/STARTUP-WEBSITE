@@ -195,6 +195,47 @@ function Home() {
       <p className="sub-title-p">
         Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
       </p>
+
+      <div className="projects">
+        <div className="project">
+          <img src={heroArt} alt="" />
+          <div>
+            <h5>View Project</h5>
+          </div>
+        </div>{" "}
+        {/*  */}
+        <div className="project">
+          <img src={heroArt} alt="" />
+          <div>
+            <h5>View Project</h5>
+          </div>
+        </div>{" "}
+        <div className="project">
+          <img src={heroArt} alt="" />
+          <div>
+            <h5>View Project</h5>
+          </div>
+        </div>{" "}
+        <div className="project">
+          <img src={heroArt} alt="" />
+          <div>
+            <h5>View Project</h5>
+          </div>
+        </div>{" "}
+        <div className="project">
+          <img src={heroArt} alt="" />
+          <div>
+            <h5>View Project</h5>
+          </div>
+        </div>{" "}
+        <div className="project">
+          <img src={heroArt} alt="" />
+          <div>
+            <h5>View Project</h5>
+          </div>
+        </div>{" "}
+        {/*  */}
+      </div>
     </div>
   );
 }
