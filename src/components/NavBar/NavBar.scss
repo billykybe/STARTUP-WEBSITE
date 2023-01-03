@@ -1,18 +1,21 @@
 .navbar-container {
   width: 100%;
-
+  position: fixed;
+  z-index: 5;
   height: max-content;
 
   .top-div {
     width: 100%;
     padding: 0 5rem;
     height: 2rem;
+    background-color: white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     p {
       font-size: 0.9rem;
       display: flex;
+      font-family: "mid";
       margin-left: 4rem;
       align-items: center;
       img {
@@ -33,16 +36,18 @@
     height: 5rem;
     p {
       font-size: 2rem;
+      font-family: "bold";
       color: white;
     }
     ul {
       display: flex;
-      gap: 4rem;
+      gap: 3rem;
       li {
         list-style: none;
         a {
           padding: 0.5rem 2rem;
           border-radius: 5px;
+          font-family: "semi";
           text-decoration: none;
           color: white;
           &:hover {

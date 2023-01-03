@@ -6,7 +6,9 @@ import Home from "./components/Home/Home";
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <div className="nav-bar-holder">
+        <NavBar />
+      </div>
       <Home />
     </div>
   );

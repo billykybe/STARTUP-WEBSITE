@@ -16,9 +16,11 @@
       .biz-cat {
         font-size: 1.2rem;
         margin-bottom: 1rem;
+        font-family: "semi";
         color: orange;
       }
       h1 {
+        font-family: "bold";
         font-size: 5rem;
       }
       p {
@@ -33,6 +35,12 @@
         width: max-content;
         margin-top: 2rem;
         border-radius: 25px;
+        outline: 1px solid orange;
+        &:hover {
+          background-color: white;
+          color: orange;
+          cursor: pointer;
+        }
       }
     }
     .hs-right {
@@ -120,6 +128,38 @@
         padding: 0.7rem;
         width: 3rem;
         height: 3rem;
+      }
+    }
+  }
+
+  .holder-two {
+    background-color: gray;
+    padding: 5rem;
+
+    .ht-top {
+      display: flex;
+      justify-content: space-between;
+      div {
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 2rem;
+        }
+        p {
+          margin-bottom: 2rem;
+          width: 70%;
+        }
+      }
+      .btn-holder {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        .btn-arr {
+          width: 2.5rem;
+          background-color: white;
+          border-radius: 50%;
+          padding: 0.6rem;
+          height: 2.5rem;
+        }
       }
     }
   }

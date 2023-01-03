@@ -17,9 +17,11 @@
 .home-container .hero-section .hs-left .biz-cat {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  font-family: "semi";
   color: orange;
 }
 .home-container .hero-section .hs-left h1 {
+  font-family: "bold";
   font-size: 5rem;
 }
 .home-container .hero-section .hs-left p {
@@ -36,6 +38,12 @@
   width: max-content;
   margin-top: 2rem;
   border-radius: 25px;
+  outline: 1px solid orange;
+}
+.home-container .hero-section .hs-left button:hover {
+  background-color: white;
+  color: orange;
+  cursor: pointer;
 }
 .home-container .hero-section .hs-right {
   padding: 0 5rem 0 0;
@@ -122,4 +130,32 @@
   padding: 0.7rem;
   width: 3rem;
   height: 3rem;
+}
+.home-container .holder-two {
+  background-color: gray;
+  padding: 5rem;
+}
+.home-container .holder-two .ht-top {
+  display: flex;
+  justify-content: space-between;
+}
+.home-container .holder-two .ht-top div h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.home-container .holder-two .ht-top div p {
+  margin-bottom: 2rem;
+  width: 70%;
+}
+.home-container .holder-two .ht-top .btn-holder {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.home-container .holder-two .ht-top .btn-holder .btn-arr {
+  width: 2.5rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.6rem;
+  height: 2.5rem;
 }/*# sourceMappingURL=Home.css.map */

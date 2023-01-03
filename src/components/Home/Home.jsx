@@ -87,6 +87,24 @@ function Home() {
 
         {/*  */}
       </div>
+
+      <div className=" holder-two">
+        <div className="ht-top">
+          <div>
+            <h3>Lorem Ipsum Title</h3>
+            <p>
+              Lorem Ipsum is a is a is a is Ipsum is nothing but dummy text to
+              fill spaces wile developing a
+            </p>
+          </div>
+          <div className="btn-holder">
+            <img className="btn-arr" src={arrowIC} alt="" />
+            <img className="btn-arr" src={arrowIC} alt="" />
+          </div>
+        </div>
+
+        <div className="ht-bottom">{/* Articles */}</div>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,7 @@
 .navbar-container {
   width: 100%;
+  position: fixed;
+  z-index: 5;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -8,6 +10,7 @@
   width: 100%;
   padding: 0 5rem;
   height: 2rem;
+  background-color: white;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -15,6 +18,7 @@
 .navbar-container .top-div p {
   font-size: 0.9rem;
   display: flex;
+  font-family: "mid";
   margin-left: 4rem;
   align-items: center;
 }
@@ -36,11 +40,12 @@
 }
 .navbar-container .bottom-div p {
   font-size: 2rem;
+  font-family: "bold";
   color: white;
 }
 .navbar-container .bottom-div ul {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
 }
 .navbar-container .bottom-div ul li {
   list-style: none;
@@ -48,6 +53,7 @@
 .navbar-container .bottom-div ul li a {
   padding: 0.5rem 2rem;
   border-radius: 5px;
+  font-family: "semi";
   text-decoration: none;
   color: white;
 }

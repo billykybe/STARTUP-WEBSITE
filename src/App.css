@@ -1,9 +1,24 @@
 @font-face {
-  font-family: "regular";
+  font-family: "mid";
   src: url(./assets/font/Jost-Medium.ttf);
 }
+@font-face {
+  font-family: "light";
+  src: url(./assets/font/Jost-Light.ttf);
+}
+
+@font-face {
+  font-family: "semi";
+  src: url(./assets/font/Jost-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "bold";
+  src: url(./assets/font/Jost-Bold.ttf);
+}
+
 * {
-  font-family: "regular";
+  font-family: "mid";
   box-sizing: border-box;
   padding: 0;
   transition: 0.3s ease-in-out;
@@ -20,10 +35,15 @@
   text-align: center;
   font-size: 2rem;
   max-width: 50%;
+  font-family: "semi";
 
   margin: 4rem auto;
 }
 
 p {
   line-height: 2rem;
+}
+
+.nav-bar-holder {
+  height: 7rem;
 }
