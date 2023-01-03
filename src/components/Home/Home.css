@@ -1,11 +1,13 @@
 .home-container {
   width: 100%;
-  height: 40rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   align-items: center;
 }
 .home-container .hero-section {
   display: flex;
-  height: 100%;
+  height: 40rem;
   width: 100%;
 }
 .home-container .hero-section .hs-left {
@@ -23,6 +25,7 @@
 .home-container .hero-section .hs-left h1 {
   font-family: "bold";
   font-size: 5rem;
+  text-transform: capitalize;
 }
 .home-container .hero-section .hs-left p {
   margin-top: 2rem;
@@ -115,6 +118,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.home-container .offer-box .offer-item-holder:hover {
+  outline: 1px solid orange;
 }
 .home-container .offer-box .offer-item-holder .offer-art {
   width: 3rem;
@@ -258,6 +264,43 @@
   color: white;
   cursor: pointer;
   background-color: orange;
+  align-items: center;
+  justify-content: center;
+}
+.home-container .hero-end {
+  display: flex;
+  padding: 5rem;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+.home-container .hero-end .he-left {
+  width: 50%;
+}
+.home-container .hero-end .he-left img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 30rem;
+}
+.home-container .hero-end .he-right {
+  width: 50%;
+}
+.home-container .hero-end .he-right h3 {
+  font-family: "semi";
+  font-size: 2rem;
+  max-width: 60%;
+}
+.home-container .hero-end .he-right p {
+  margin-top: 2rem;
+}
+.home-container .hero-end .he-right button {
+  all: unset;
+  color: white;
+  padding: 0.7rem 3rem;
+  margin-top: 2rem;
+  background-color: orange;
+  display: flex;
   align-items: center;
   justify-content: center;
 }/*# sourceMappingURL=Home.css.map */

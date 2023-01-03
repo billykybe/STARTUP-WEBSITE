@@ -236,6 +236,27 @@ function Home() {
         </div>{" "}
         {/*  */}
       </div>
+
+      <div className="hero-end">
+        <div className="he-left">
+          <img src={heroArt} alt="" />
+        </div>
+        <div className="he-right">
+          <h3>Lorem ipsum are dummy text for this page site</h3>
+
+          <p>
+            Lorem ipsum and other text don't matter much but this site do and
+            this site don't im poor in touch typing but can type without looking
+            at the keyboard matter and ipsum matters{" "}
+          </p>
+          <p>
+            Oww i knew i would end this page within two days but who is
+            responsiveness
+          </p>
+
+          <button className="btn-sharp">Read More </button>
+        </div>
+      </div>
     </div>
   );
 }
