@@ -7,16 +7,37 @@ import phoneIC from "../../assets/icon/phone.svg";
 function NavBar() {
   return (
     <div className="navbar-container">
-      <div>
+      <div className="top-div">
         <p>
-          <img src="" alt="" /> CDC NAIROBI Kenya
+          <img src={locationIC} alt="" /> CDC NAIROBI Kenya
         </p>
         <p>
-          <img src="" alt="" />
+          <img src={phoneIC} alt="" />
           +254 4567890
         </p>
       </div>
-      <div></div>
+      <div className="bottom-div">
+        <p>DEV SPACE</p>
+        <ul>
+          <li>
+            <a className="active-tab" href="">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="">About Us</a>
+          </li>
+          <li>
+            <a href="">Services</a>
+          </li>
+          <li>
+            <a href="">News</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

@@ -1,1 +1,125 @@
-/*# sourceMappingURL=Home.css.map */
+.home-container {
+  width: 100%;
+  height: 40rem;
+  align-items: center;
+}
+.home-container .hero-section {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.home-container .hero-section .hs-left {
+  width: 50%;
+  padding: 0 0 0 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.home-container .hero-section .hs-left .biz-cat {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: orange;
+}
+.home-container .hero-section .hs-left h1 {
+  font-size: 5rem;
+}
+.home-container .hero-section .hs-left p {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+.home-container .hero-section .hs-left button {
+  all: unset;
+  background-color: orange;
+  color: white;
+  padding: 0.8rem 3rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 2rem;
+  border-radius: 25px;
+}
+.home-container .hero-section .hs-right {
+  padding: 0 5rem 0 0;
+  width: 50%;
+}
+.home-container .hero-section .hs-right .hero-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home-container .holder-one {
+  width: 100%;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.home-container .holder-one h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.home-container .holder-one p {
+  max-width: 50%;
+  margin-bottom: 2rem;
+}
+.home-container .holder-one .image-holder-one {
+  position: relative;
+  height: 30rem;
+  width: 80%;
+}
+.home-container .holder-one .image-holder-one img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home-container .holder-one .image-holder-one .main-img {
+  width: 100%;
+  height: 100%;
+}
+.home-container .holder-one .image-holder-one .art-img {
+  height: 10rem;
+  width: 14rem;
+  position: absolute;
+  top: 5;
+  right: 0;
+}
+.home-container .sub-title-p {
+  width: 40%;
+  margin: auto;
+  margin-top: -3rem;
+  text-align: center;
+}
+.home-container .offer-box {
+  width: 100%;
+  gap: 2rem;
+  padding: 0 5rem;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 3rem;
+  display: flex;
+}
+.home-container .offer-box .offer-item-holder {
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home-container .offer-box .offer-item-holder .offer-art {
+  width: 3rem;
+  padding: 0.5rem;
+  background-color: orange;
+  height: 3rem;
+  border-radius: 50%;
+}
+.home-container .offer-box .offer-item-holder p {
+  margin: 1.5rem 0;
+}
+.home-container .offer-box .offer-item-holder .offer-arrow {
+  padding: 0.7rem;
+  width: 3rem;
+  height: 3rem;
+}/*# sourceMappingURL=Home.css.map */

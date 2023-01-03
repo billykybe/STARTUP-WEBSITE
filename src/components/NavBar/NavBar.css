@@ -1,1 +1,57 @@
-/*# sourceMappingURL=NavBar.css.map */
+.navbar-container {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.navbar-container .top-div {
+  width: 100%;
+  padding: 0 5rem;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar-container .top-div p {
+  font-size: 0.9rem;
+  display: flex;
+  margin-left: 4rem;
+  align-items: center;
+}
+.navbar-container .top-div p img {
+  width: 2rem;
+  margin-right: 0.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0.2rem;
+  height: 2rem;
+}
+.navbar-container .bottom-div {
+  display: flex;
+  padding: 0 5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  height: 5rem;
+}
+.navbar-container .bottom-div p {
+  font-size: 2rem;
+  color: white;
+}
+.navbar-container .bottom-div ul {
+  display: flex;
+  gap: 4rem;
+}
+.navbar-container .bottom-div ul li {
+  list-style: none;
+}
+.navbar-container .bottom-div ul li a {
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.navbar-container .bottom-div ul li a:hover {
+  background-color: white;
+  color: orange;
+}/*# sourceMappingURL=NavBar.css.map */

@@ -1,0 +1,56 @@
+.navbar-container {
+  width: 100%;
+
+  height: max-content;
+
+  .top-div {
+    width: 100%;
+    padding: 0 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    p {
+      font-size: 0.9rem;
+      display: flex;
+      margin-left: 4rem;
+      align-items: center;
+      img {
+        width: 2rem;
+        margin-right: 0.5rem;
+        object-fit: cover;
+        padding: 0.2rem;
+        height: 2rem;
+      }
+    }
+  }
+  .bottom-div {
+    display: flex;
+    padding: 0 5rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    height: 5rem;
+    p {
+      font-size: 2rem;
+      color: white;
+    }
+    ul {
+      display: flex;
+      gap: 4rem;
+      li {
+        list-style: none;
+        a {
+          padding: 0.5rem 2rem;
+          border-radius: 5px;
+          text-decoration: none;
+          color: white;
+          &:hover {
+            background-color: white;
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+}
