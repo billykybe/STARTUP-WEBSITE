@@ -16,15 +16,18 @@
   font-family: "bold";
   src: url(./assets/font/Jost-Bold.ttf);
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 * {
   font-family: "mid";
   box-sizing: border-box;
   padding: 0;
   transition: 0.3s ease-in-out;
   margin: 0;
+
   font-size: 16px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .App {
   width: 100%;

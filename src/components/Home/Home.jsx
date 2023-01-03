@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
 import heroArt from "../../assets/image/6.jpg";
+import angleNext from "../../assets/icon/chevron-right.svg";
+import anglePrev from "../../assets/icon/angle-left.svg";
 import imgOffer from "../../assets/icon/phone.svg";
 import arrowIC from "../../assets/icon/arrow-right.svg";
 function Home() {
@@ -98,13 +100,101 @@ function Home() {
             </p>
           </div>
           <div className="btn-holder">
-            <img className="btn-arr" src={arrowIC} alt="" />
-            <img className="btn-arr" src={arrowIC} alt="" />
+            <img className="btn-arr" src={anglePrev} alt="" />
+            <img className="btn-arr" src={angleNext} alt="" />
           </div>
         </div>
 
-        <div className="ht-bottom">{/* Articles */}</div>
+        <div className="ht-bottom">
+          {/* Articles */}
+          <div className="ht-bottom-item">
+            <h3>Lorem Ipsum</h3>
+            <h1>Lorem Ipsum</h1>
+            <p>
+              I think ill add more cool text here so keep scrolling till you see
+              me shine and get a job
+            </p>
+            <div>
+              <p>
+                Read more <img src={arrowIC} alt="" />
+              </p>
+            </div>
+          </div>
+          {/*  */}
+          <div className="ht-bottom-item">
+            <h3>Lorem Ipsum</h3>
+            <h1>Lorem Ipsum</h1>
+            <p>
+              I think ill add more cool text here so keep scrolling till you see
+              me shine and get a job
+            </p>
+            <div>
+              <p>
+                Read more <img src={arrowIC} alt="" />
+              </p>
+            </div>
+          </div>{" "}
+          <div className="ht-bottom-item">
+            <h3>Lorem Ipsum</h3>
+            <h1>Lorem Ipsum</h1>
+            <p>
+              I think ill add more cool text here so keep scrolling till you see
+              me shine and get a job
+            </p>
+            <div>
+              <p>
+                Read more <img src={arrowIC} alt="" />
+              </p>
+            </div>
+          </div>{" "}
+          <div className="ht-bottom-item">
+            <h3>Lorem Ipsum</h3>
+            <h1>Lorem Ipsum</h1>
+            <p>
+              I think ill add more cool text here so keep scrolling till you see
+              me shine and get a job
+            </p>
+            <div>
+              <p>
+                Read more <img src={arrowIC} alt="" />
+              </p>
+            </div>
+          </div>{" "}
+          <div className="ht-bottom-item">
+            <h3>Lorem Ipsum</h3>
+            <h1>Lorem Ipsum</h1>
+            <p>
+              I think ill add more cool text here so keep scrolling till you see
+              me shine and get a job
+            </p>
+            <div>
+              <p>
+                Read more <img src={arrowIC} alt="" />
+              </p>
+            </div>
+          </div>{" "}
+          <div className="ht-bottom-item">
+            <h3>Lorem Ipsum</h3>
+            <h1>Lorem Ipsum</h1>
+            <p>
+              I think ill add more cool text here so keep scrolling till you see
+              me shine and get a job
+            </p>
+            <div>
+              <p>
+                Read more <img src={arrowIC} alt="" />
+              </p>
+            </div>
+          </div>
+          {/*  */}
+        </div>
       </div>
+
+      <h2 className="sub-title">Our Recent Projects</h2>
+
+      <p className="sub-title-p">
+        Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
+      </p>
     </div>
   );
 }
