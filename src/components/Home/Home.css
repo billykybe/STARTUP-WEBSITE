@@ -20,7 +20,7 @@
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-family: "semi";
-  color: orange;
+  color: #4b4bff;
 }
 .home-container .hero-section .hs-left h1 {
   font-family: "bold";
@@ -33,7 +33,7 @@
 }
 .home-container .hero-section .hs-left button {
   all: unset;
-  background-color: orange;
+  background-color: #4b4bff;
   color: white;
   padding: 0.8rem 3rem;
   width: -webkit-max-content;
@@ -41,11 +41,11 @@
   width: max-content;
   margin-top: 2rem;
   border-radius: 25px;
-  outline: 1px solid orange;
+  outline: 1px solid #4b4bff;
 }
 .home-container .hero-section .hs-left button:hover {
   background-color: white;
-  color: orange;
+  color: #4b4bff;
   cursor: pointer;
 }
 .home-container .hero-section .hs-right {
@@ -120,12 +120,12 @@
   flex-direction: column;
 }
 .home-container .offer-box .offer-item-holder:hover {
-  outline: 1px solid orange;
+  outline: 1px solid #4b4bff;
 }
 .home-container .offer-box .offer-item-holder .offer-art {
   width: 3rem;
   padding: 0.5rem;
-  background-color: orange;
+  background-color: #4b4bff;
   height: 3rem;
   border-radius: 50%;
 }
@@ -209,7 +209,7 @@
 .home-container .holder-two .ht-bottom .ht-bottom-item div p {
   align-items: center;
   display: flex;
-  color: orange;
+  color: #4b4bff;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -263,7 +263,7 @@
   text-align: center;
   color: white;
   cursor: pointer;
-  background-color: orange;
+  background-color: #4b4bff;
   align-items: center;
   justify-content: center;
 }
@@ -299,7 +299,7 @@
   color: white;
   padding: 0.7rem 3rem;
   margin-top: 2rem;
-  background-color: orange;
+  background-color: #4b4bff;
   display: flex;
   align-items: center;
   justify-content: center;

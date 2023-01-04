@@ -17,7 +17,7 @@
         font-size: 1.2rem;
         margin-bottom: 1rem;
         font-family: "semi";
-        color: orange;
+        color: #4b4bff;
       }
       h1 {
         font-family: "bold";
@@ -30,16 +30,16 @@
       }
       button {
         all: unset;
-        background-color: orange;
+        background-color: #4b4bff;
         color: white;
         padding: 0.8rem 3rem;
         width: max-content;
         margin-top: 2rem;
         border-radius: 25px;
-        outline: 1px solid orange;
+        outline: 1px solid #4b4bff;
         &:hover {
           background-color: white;
-          color: orange;
+          color: #4b4bff;
           cursor: pointer;
         }
       }
@@ -115,12 +115,12 @@
       justify-content: center;
       flex-direction: column;
       &:hover {
-        outline: 1px solid orange;
+        outline: 1px solid #4b4bff;
       }
       .offer-art {
         width: 3rem;
         padding: 0.5rem;
-        background-color: orange;
+        background-color: #4b4bff;
         height: 3rem;
         border-radius: 50%;
       }
@@ -203,7 +203,7 @@
           p {
             align-items: center;
             display: flex;
-            color: orange;
+            color: #4b4bff;
             width: max-content;
 
             img {
@@ -258,7 +258,7 @@
           text-align: center;
           color: white;
           cursor: pointer;
-          background-color: orange;
+          background-color: #4b4bff;
           align-items: center;
           justify-content: center;
         }
@@ -296,7 +296,7 @@
         color: white;
         padding: 0.7rem 3rem;
         margin-top: 2rem;
-        background-color: orange;
+        background-color: #4b4bff;
         display: flex;
         align-items: center;
         justify-content: center;

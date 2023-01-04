@@ -16,12 +16,14 @@ function Footer() {
             <h3>Stay in the loop</h3>
             <p className="pp">
               Subscribe to get the latest news and updates from us and more fun
-              stuff
+              stuff Subscribe to get the latest news and updates from us and
+              more fun stuff
             </p>
           </div>
 
           <div className="input-holder">
             <input type="text" placeholder="Enter email address" />
+            <button>Continue</button>
           </div>
         </div>
       </div>
@@ -59,6 +61,7 @@ function Footer() {
           </div>
         </div>
       </div>
+      <div className="hr-custom"></div>
       <p className="end">Copyright &copy; 2023 dev space All rights reserved</p>
     </div>
   );

@@ -15,25 +15,52 @@
   height: -moz-max-content;
   height: max-content;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: white;
+  padding: 2rem;
+  border-radius: 12px;
   background-color: black;
 }
 .footer-container .loop-div .loop div {
   width: 50%;
 }
 .footer-container .loop-div .loop div h3 {
-  padding: 2rem 0 0 2rem;
+  font-size: 1.5rem;
 }
 .footer-container .loop-div .loop div .pp {
-  padding: 0 0 2rem 2rem;
+  margin-top: 1rem;
   width: 100%;
 }
-.footer-container .loop-div .loop div .input-holder {
-  width: 10rem;
+.footer-container .loop-div .loop .input-holder {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 30rem;
+  position: relative;
 }
-.footer-container .loop-div .loop div .input-holder input {
+.footer-container .loop-div .loop .input-holder input {
+  position: absolute;
   width: 100%;
+  padding-left: 1rem;
   height: 100%;
+}
+.footer-container .loop-div .loop .input-holder button {
+  all: unset;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  background-color: #4b4bff;
+  height: 2.5rem;
+  margin-right: 0.25rem;
+  position: absolute;
+  right: 0;
+  width: 10rem;
 }
 .footer-container .footer-end {
   padding: 5rem;
@@ -67,7 +94,7 @@
   margin-bottom: 0.5rem;
 }
 .footer-container .footer-end div:nth-child(2) p:hover {
-  color: orange;
+  color: #4b4bff;
   cursor: pointer;
 }
 .footer-container .footer-end div:nth-child(2) h5 {

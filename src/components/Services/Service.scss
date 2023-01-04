@@ -1,0 +1,59 @@
+.service-container {
+  width: 100%;
+  height: 100%;
+
+  .sc-top {
+    padding: 5rem;
+
+    .bc {
+      font-family: "semi";
+      text-align: center;
+      .current-tab {
+        color: blue;
+      }
+    }
+    .sub {
+      text-align: center;
+      margin-top: -3rem;
+    }
+
+    .counts-holder {
+      width: 80%;
+      padding: 2rem;
+      display: flex;
+      margin: 3rem auto;
+      box-shadow: 1px 1px 1px gray;
+      align-items: center;
+      justify-content: space-between;
+
+      div {
+        width: 30%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%;
+          padding: 0.6rem;
+          background-color: blue;
+        }
+        div {
+          flex-direction: column;
+          align-items: unset;
+          display: flex;
+          gap: 0rem;
+          margin-left: 1rem;
+          h2 {
+            font-size: 1.6rem;
+            font-family: "bold";
+          }
+          p {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

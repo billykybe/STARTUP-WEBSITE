@@ -1,1 +1,54 @@
-/*# sourceMappingURL=Service.css.map */
+.service-container {
+  width: 100%;
+  height: 100%;
+}
+.service-container .sc-top {
+  padding: 5rem;
+}
+.service-container .sc-top .bc {
+  font-family: "semi";
+  text-align: center;
+}
+.service-container .sc-top .bc .current-tab {
+  color: blue;
+}
+.service-container .sc-top .sub {
+  text-align: center;
+  margin-top: -3rem;
+}
+.service-container .sc-top .counts-holder {
+  width: 80%;
+  padding: 2rem;
+  display: flex;
+  margin: 3rem auto;
+  box-shadow: 1px 1px 1px gray;
+  align-items: center;
+  justify-content: space-between;
+}
+.service-container .sc-top .counts-holder div {
+  width: 30%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.service-container .sc-top .counts-holder div img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  padding: 0.6rem;
+  background-color: blue;
+}
+.service-container .sc-top .counts-holder div div {
+  flex-direction: column;
+  align-items: unset;
+  display: flex;
+  gap: 0rem;
+  margin-left: 1rem;
+}
+.service-container .sc-top .counts-holder div div h2 {
+  font-size: 1.6rem;
+  font-family: "bold";
+}
+.service-container .sc-top .counts-holder div div p {
+  font-size: 1.2rem;
+}/*# sourceMappingURL=Service.css.map */

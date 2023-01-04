@@ -5,6 +5,10 @@ import locationIC from "../../assets/icon/map25.png";
 import phoneIC from "../../assets/icon/phone.svg";
 // --> Images Import
 function NavBar() {
+  const navClick = (e) => {
+    document.querySelector(".active-tab").classList.toggle("active-tab");
+    e.target.classList.toggle("active-tab");
+  };
   return (
     <div className="navbar-container">
       <div className="top-div">
@@ -20,21 +24,50 @@ function NavBar() {
         <p>DEV SPACE</p>
         <ul>
           <li>
-            <a className="active-tab" href="">
+            <a
+              className="active-tab"
+              onClick={(e) => {
+                navClick(e);
+              }}
+            >
               Home
             </a>
           </li>
           <li>
-            <a href="">About Us</a>
+            <a
+              onClick={(e) => {
+                navClick(e);
+              }}
+            >
+              About Us
+            </a>
           </li>
           <li>
-            <a href="">Services</a>
+            <a
+              onClick={(e) => {
+                navClick(e);
+              }}
+            >
+              Services
+            </a>
           </li>
           <li>
-            <a href="">News</a>
+            <a
+              onClick={(e) => {
+                navClick(e);
+              }}
+            >
+              News
+            </a>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <a
+              onClick={(e) => {
+                navClick(e);
+              }}
+            >
+              Contact Us
+            </a>
           </li>
         </ul>
       </div>

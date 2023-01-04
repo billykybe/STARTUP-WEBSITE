@@ -35,7 +35,7 @@
   padding: 0 5rem;
   justify-content: space-between;
   align-items: center;
-  background-color: orange;
+  background-color: #4b4bff;
   height: 5rem;
 }
 .navbar-container .bottom-div p {
@@ -46,6 +46,7 @@
 .navbar-container .bottom-div ul {
   display: flex;
   gap: 3rem;
+  align-items: center;
 }
 .navbar-container .bottom-div ul li {
   list-style: none;
@@ -59,5 +60,20 @@
 }
 .navbar-container .bottom-div ul li a:hover {
   background-color: white;
-  color: orange;
+  color: #4b4bff;
+}
+.navbar-container .bottom-div ul li .active-tab {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #4b4bff;
+}
+.navbar-container .bottom-div ul li .active-tab::before {
+  width: 5px;
+  margin-right: 0.5rem;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #4b4bff;
+  display: block;
+  content: "";
 }/*# sourceMappingURL=NavBar.css.map */
