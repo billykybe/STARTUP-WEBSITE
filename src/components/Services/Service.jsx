@@ -1,6 +1,9 @@
 import React from "react";
 import "./Service.css";
 import holderIc from "../../assets/icon/phone.svg";
+import imgHolder from "../../assets/image/6.jpg";
+import playIC from "../../assets/icon/circle-play.svg";
+import tick from "../../assets/icon/circle-check.svg";
 function Service() {
   return (
     <div className="service-container">
@@ -44,16 +47,17 @@ function Service() {
         </div>
 
         <div className="video-holder-div">
-          <div>
+          <div className="vid-div">
             <img className="video-item" src={imgHolder} alt="" />
             <img className="play-btn" src={playIC} alt="" />
           </div>
 
-          <div>
+          <div className="video-ditails-div">
             <h3>This is a title that suits this video</h3>
             <p>
               Lorem ipsum and a more presice this is it text and paragraph it
-              for me
+              for me orem ipsum and a more presice this is it text and paragraph
+              it for me
             </p>
 
             <p className="check-it">
@@ -77,6 +81,72 @@ function Service() {
             {/*  */}
           </div>
         </div>
+
+        <div className="service-box odd">
+          <div className="text-side">
+            <h3>This is a heading like no other from the map</h3>
+            <p>
+              Lorem iand ais dad This is a heading like no other from the map
+              This is a heading like no other from the map This is a heading
+              like no other from the map This is a heading like no other from
+              the map
+            </p>
+
+            <p>
+              This is a heading like no other from the map This is a heading
+              like no other from the map This is a heading like no other from
+              the map
+            </p>
+
+            <button className="button-sharp">Read More</button>
+          </div>
+          <img src={imgHolder} alt="" />
+        </div>
+
+        {/* React this */}
+        <div className="service-box odd">
+          <div className="text-side">
+            <h3>This is a heading like no other from the map</h3>
+            <p>
+              Lorem iand ais dad This is a heading like no other from the map
+              This is a heading like no other from the map This is a heading
+              like no other from the map This is a heading like no other from
+              the map
+            </p>
+
+            <p>
+              This is a heading like no other from the map This is a heading
+              like no other from the map This is a heading like no other from
+              the map
+            </p>
+
+            <button className="button-sharp">Read More</button>
+          </div>
+          <img src={imgHolder} alt="" />
+        </div>
+
+        <div className="service-box odd">
+          <div className="text-side">
+            <h3>This is a heading like no other from the map</h3>
+            <p>
+              Lorem iand ais dad This is a heading like no other from the map
+              This is a heading like no other from the map This is a heading
+              like no other from the map This is a heading like no other from
+              the map
+            </p>
+
+            <p>
+              This is a heading like no other from the map This is a heading
+              like no other from the map This is a heading like no other from
+              the map
+            </p>
+
+            <button className="button-sharp">Read More</button>
+          </div>
+          <img src={imgHolder} alt="" />
+        </div>
+
+        {/*  */}
       </div>
     </div>
   );

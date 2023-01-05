@@ -51,4 +51,86 @@
 }
 .service-container .sc-top .counts-holder div div p {
   font-size: 1.2rem;
+}
+.service-container .sc-top .video-holder-div {
+  display: flex;
+  align-items: center;
+}
+.service-container .sc-top .video-holder-div .vid-div {
+  display: flex;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+}
+.service-container .sc-top .video-holder-div .vid-div .video-item {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.service-container .sc-top .video-holder-div .vid-div .play-btn {
+  z-index: 3;
+  width: 3rem;
+  height: 3rem;
+}
+.service-container .sc-top .video-holder-div .video-ditails-div {
+  width: 50%;
+  padding-left: 3rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.service-container .sc-top .video-holder-div .video-ditails-div h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.service-container .sc-top .video-holder-div .video-ditails-div p {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.service-container .sc-top .video-holder-div .video-ditails-div p img {
+  margin-right: 0.5rem;
+  width: 1.5rem;
+  background-color: green;
+  border-radius: 50%;
+  height: 1.5rem;
+}
+.service-container .sc-top .service-box {
+  display: flex;
+  padding: 5rem 0;
+  justify-content: space-between;
+  height: 40rem;
+}
+.service-container .sc-top .service-box .text-side {
+  width: 50%;
+}
+.service-container .sc-top .service-box .text-side h3 {
+  font-size: 2rem;
+}
+.service-container .sc-top .service-box .text-side p {
+  width: 80%;
+  margin-top: 2rem;
+}
+.service-container .sc-top .service-box .text-side .button-sharp {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 2rem;
+  color: white;
+  background-color: blue;
+  margin-top: 2rem;
+}
+.service-container .sc-top .service-box img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 40rem;
+  height: 100%;
+}
+.service-container .sc-top .odd {
+  flex-direction: row-reverse !important;
 }/*# sourceMappingURL=Service.css.map */

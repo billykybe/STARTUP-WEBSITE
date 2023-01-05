@@ -1,8 +1,12 @@
 import React from "react";
 import "./NavBar.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // Images Import
 import locationIC from "../../assets/icon/map25.png";
 import phoneIC from "../../assets/icon/phone.svg";
+import Home from "../Home/Home";
+import Service from "../Services/Service";
+import News from "../News/News";
 // --> Images Import
 function NavBar() {
   const navClick = (e) => {
@@ -24,50 +28,64 @@ function NavBar() {
         <p>DEV SPACE</p>
         <ul>
           <li>
-            <a
-              className="active-tab"
-              onClick={(e) => {
-                navClick(e);
-              }}
-            >
-              Home
-            </a>
+            <Link to={"/"} className="link" component={<Home />}>
+              <a
+                className="active-tab"
+                onClick={(e) => {
+                  navClick(e);
+                }}
+              >
+                Home
+              </a>
+            </Link>
           </li>
           <li>
-            <a
-              onClick={(e) => {
-                navClick(e);
-              }}
-            >
-              About Us
-            </a>
+            <Link to={"/"} className="link" component={<Home />}>
+              <a
+                className="active-tab"
+                onClick={(e) => {
+                  navClick(e);
+                }}
+              >
+                About US
+              </a>
+            </Link>
           </li>
           <li>
-            <a
-              onClick={(e) => {
-                navClick(e);
-              }}
-            >
-              Services
-            </a>
+            <Link to={"/service"} className="link" component={<Service />}>
+              <a
+                className="active-tab"
+                onClick={(e) => {
+                  navClick(e);
+                }}
+              >
+                Services
+              </a>
+            </Link>
           </li>
           <li>
-            <a
-              onClick={(e) => {
-                navClick(e);
-              }}
-            >
-              News
-            </a>
+            <Link to={"/news"} className="link" component={<News />}>
+              <a
+                className="active-tab"
+                onClick={(e) => {
+                  navClick(e);
+                }}
+              >
+                News
+              </a>
+            </Link>
           </li>
           <li>
-            <a
-              onClick={(e) => {
-                navClick(e);
-              }}
-            >
-              Contact Us
-            </a>
+            <Link to={"/"} className="link" component={<Home />}>
+              <a
+                className="active-tab"
+                onClick={(e) => {
+                  navClick(e);
+                }}
+              >
+                Contact Us
+              </a>
+            </Link>
           </li>
         </ul>
       </div>
