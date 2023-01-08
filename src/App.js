@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Service from "./components/Services/Service";
 import News from "./components/News/News";
+import Contact from "./components/Contacts/Contact";
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
+          <Route index element={<Home />}></Route>
+          <Route exact path="/home" element={<Home />}></Route>
 
           <Route exact path="/service" element={<Service />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/news" element={<News />}></Route>
         </Routes>
 

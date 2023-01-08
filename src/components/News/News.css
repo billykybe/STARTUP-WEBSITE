@@ -46,6 +46,14 @@
   width: 100%;
   margin-bottom: 3rem;
 }
+.news-container .main-news-body .mnb-left .article-big-item:last-child p {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.news-container .main-news-body .mnb-left .article-big-item:last-child p::after {
+  all: unset;
+}
 .news-container .main-news-body .mnb-left .article-big-item img {
   width: 100%;
   height: 25rem;

@@ -1,1 +1,106 @@
-/*# sourceMappingURL=Contact.css.map */
+* {
+  outline: 1px solid red;
+}
+
+.contact-container {
+  padding: 5rem 0;
+}
+.contact-container .bc {
+  font-family: "semi";
+  text-align: center;
+}
+.contact-container .bc .current-tab {
+  color: blue;
+}
+.contact-container .sub {
+  text-align: center;
+  margin-top: -3rem;
+}
+.contact-container .map {
+  margin-bottom: 5rem;
+  padding: 0 5rem;
+  width: 100%;
+  margin-top: 5rem;
+  height: 35rem;
+}
+.contact-container .contacts-holder {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+.contact-container .contacts-holder div {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.contact-container .contacts-holder div:nth-child(2)::before {
+  content: "";
+  height: 6rem;
+  margin-right: 3rem;
+  background-color: black;
+  width: 1px;
+}
+.contact-container .contacts-holder div:nth-child(2)::after {
+  margin-left: 3rem;
+  content: "";
+  height: 6rem;
+  background-color: black;
+  width: 1px;
+}
+.contact-container .contacts-holder div img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.7rem;
+}
+.contact-container .contacts-holder div:first-child {
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-container .contacts-holder div:first-child div {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+.contact-container .contacts-holder div:first-child div::before {
+  all: unset;
+}
+.contact-container .contacts-holder div:first-child div::after {
+  all: unset;
+}
+.contact-container .contacts-holder div:first-child div img {
+  all: unset;
+  border-radius: 50%;
+  background-color: blue;
+  padding: 0.5rem;
+}
+.contact-container .form-holder {
+  background-color: blue;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-container .form-holder h4 {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+.contact-container .form-holder .inputs-holder {
+  margin-top: 3rem;
+}
+.contact-container .form-holder .inputs-holder > * {
+  display: block;
+}
+.contact-container .form-holder .inputs-holder .top-part {
+  display: flex;
+  gap: 2rem;
+}
+.contact-container .form-holder .inputs-holder .top-part div {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.contact-container .form-holder .inputs-holder .top-part div label {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=Contact.css.map */

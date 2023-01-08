@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./NavBar.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -7,8 +8,10 @@ import phoneIC from "../../assets/icon/phone.svg";
 import Home from "../Home/Home";
 import Service from "../Services/Service";
 import News from "../News/News";
-// --> Images Import
+// --> Images Importuse
+import { useNavigate } from "react-router-dom";
 function NavBar() {
+  const navigate = useNavigate();
   const navClick = (e) => {
     document.querySelector(".active-tab").classList.toggle("active-tab");
     e.target.classList.toggle("active-tab");
@@ -28,64 +31,57 @@ function NavBar() {
         <p>DEV SPACE</p>
         <ul>
           <li>
-            <Link to={"/"} className="link" component={<Home />}>
-              <a
-                className="active-tab"
-                onClick={(e) => {
-                  navClick(e);
-                }}
-              >
-                Home
-              </a>
-            </Link>
+            <a
+              className="active-tab"
+              onClick={(e) => {
+                navigate("/home");
+
+                navClick(e);
+              }}
+            >
+              Home
+            </a>
           </li>
           <li>
-            <Link to={"/"} className="link" component={<Home />}>
-              <a
-                className="active-tab"
-                onClick={(e) => {
-                  navClick(e);
-                }}
-              >
-                About US
-              </a>
-            </Link>
+            <a
+              onClick={(e) => {
+                navClick(e);
+                navigate("/about");
+              }}
+            >
+              About US
+            </a>
           </li>
           <li>
-            <Link to={"/service"} className="link" component={<Service />}>
-              <a
-                className="active-tab"
-                onClick={(e) => {
-                  navClick(e);
-                }}
-              >
-                Services
-              </a>
-            </Link>
+            <a
+              onClick={(e) => {
+                navClick(e);
+                navigate("/service");
+              }}
+            >
+              Services
+            </a>
           </li>
           <li>
-            <Link to={"/news"} className="link" component={<News />}>
-              <a
-                className="active-tab"
-                onClick={(e) => {
-                  navClick(e);
-                }}
-              >
-                News
-              </a>
-            </Link>
+            <a
+              onClick={(e) => {
+                navClick(e);
+                navigate("/news");
+              }}
+            >
+              News
+            </a>
           </li>
           <li>
-            <Link to={"/"} className="link" component={<Home />}>
-              <a
-                className="active-tab"
-                onClick={(e) => {
-                  navClick(e);
-                }}
-              >
-                Contact Us
-              </a>
-            </Link>
+            <a
+              onClick={(e) => {
+                navigate("/contact");
+
+                navClick(e);
+              }}
+            >
+              Contact Us
+            </a>
           </li>
         </ul>
       </div>

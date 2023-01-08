@@ -1,0 +1,119 @@
+* {
+  outline: 1px solid red;
+}
+.contact-container {
+  padding: 5rem 0;
+
+  .bc {
+    font-family: "semi";
+    text-align: center;
+    .current-tab {
+      color: blue;
+    }
+  }
+  .sub {
+    text-align: center;
+    margin-top: -3rem;
+  }
+  .map {
+    margin-bottom: 5rem;
+    padding: 0 5rem;
+    width: 100%;
+    margin-top: 5rem;
+
+    height: 35rem;
+  }
+  .contacts-holder {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+    div {
+      width: 30%;
+
+      display: flex;
+      align-items: center;
+      &:nth-child(2) {
+        &::before {
+          content: "";
+          height: 6rem;
+          margin-right: 3rem;
+          background-color: black;
+          width: 1px;
+        }
+        &::after {
+          margin-left: 3rem;
+          content: "";
+          height: 6rem;
+          background-color: black;
+          width: 1px;
+        }
+      }
+      img {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 0.7rem;
+      }
+      p {
+      }
+      &:first-child {
+        align-items: flex-start;
+
+        flex-direction: column;
+        div {
+          display: flex;
+          gap: 2rem;
+          margin-top: 1.5rem;
+
+          width: 100%;
+          &::before {
+            all: unset;
+          }
+          &::after {
+            all: unset;
+          }
+          img {
+            all: unset;
+            border-radius: 50%;
+            background-color: blue;
+            padding: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .form-holder {
+    background-color: blue;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h4 {
+      margin-top: 5rem;
+      margin-bottom: 1rem;
+    }
+    .inputs-holder {
+      > * {
+        display: block;
+      }
+      margin-top: 3rem;
+      .top-part {
+        display: flex;
+        gap: 2rem;
+        div {
+          display: flex;
+          width: 50%;
+          flex-direction: column;
+          label {
+            margin-bottom: 1rem;
+          }
+
+          input {
+            // all: unset;
+          }
+        }
+      }
+    }
+  }
+}

@@ -59,6 +59,7 @@
   color: white;
 }
 .navbar-container .bottom-div ul li a:hover {
+  cursor: pointer;
   background-color: white;
   color: #4b4bff;
 }
