@@ -42,7 +42,7 @@ function NavBar() {
             <a
               onClick={(e) => {
                 navClick(e);
-                navigate("/about");
+                navigate("/service");
               }}
             >
               About US
