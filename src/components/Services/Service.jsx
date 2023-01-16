@@ -5,6 +5,7 @@ import imgHolder from "../../assets/image/6.jpg";
 import playIC from "../../assets/icon/circle-play.svg";
 import tick from "../../assets/icon/circle-check.svg";
 import { useNavigate } from "react-router-dom";
+import { data } from "../../assets/json/servicePage";
 function Service() {
   const navigate = useNavigate();
   return (
@@ -87,69 +88,30 @@ function Service() {
           </div>
         </div>
 
-        <div className="service-box odd">
-          <div className="text-side">
-            <h3>This is a heading like no other from the map</h3>
-            <p>
-              Lorem iand ais dad This is a heading like no other from the map
-              This is a heading like no other from the map This is a heading
-              like no other from the map This is a heading like no other from
-              the map
-            </p>
+        {/*  */}
 
-            <p>
-              This is a heading like no other from the map This is a heading
-              like no other from the map This is a heading like no other from
-              the map
-            </p>
+        {data.map((item, index) => (
+          <div className={item.clas}>
+            <div className="text-side">
+              <h3>This is a heading like no other from the map</h3>
+              <p>
+                Lorem iand ais dad This is a heading like no other from the map
+                This is a heading like no other from the map This is a heading
+                like no other from the map This is a heading like no other from
+                the map
+              </p>
 
-            <button className="button-sharp">Read More</button>
+              <p>
+                This is a heading like no other from the map This is a heading
+                like no other from the map This is a heading like no other from
+                the map
+              </p>
+
+              <button className="button-sharp">Read More</button>
+            </div>
+            <img src={imgHolder} alt="" />
           </div>
-          <img src={imgHolder} alt="" />
-        </div>
-
-        {/* React this */}
-        <div className="service-box odd">
-          <div className="text-side">
-            <h3>This is a heading like no other from the map</h3>
-            <p>
-              Lorem iand ais dad This is a heading like no other from the map
-              This is a heading like no other from the map This is a heading
-              like no other from the map This is a heading like no other from
-              the map
-            </p>
-
-            <p>
-              This is a heading like no other from the map This is a heading
-              like no other from the map This is a heading like no other from
-              the map
-            </p>
-
-            <button className="button-sharp">Read More</button>
-          </div>
-          <img src={imgHolder} alt="" />
-        </div>
-
-        <div className="service-box odd">
-          <div className="text-side">
-            <h3>This is a heading like no other from the map</h3>
-            <p>
-              Lorem iand ais dad This is a heading like no other from the map
-              This is a heading like no other from the map This is a heading
-              like no other from the map This is a heading like no other from
-              the map
-            </p>
-
-            <p>
-              This is a heading like no other from the map This is a heading
-              like no other from the map This is a heading like no other from
-              the map
-            </p>
-
-            <button className="button-sharp">Read More</button>
-          </div>
-          <img src={imgHolder} alt="" />
-        </div>
+        ))}
 
         {/*  */}
       </div>

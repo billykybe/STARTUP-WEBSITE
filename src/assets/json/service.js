@@ -1,23 +1,27 @@
 import myImg from "../icon/phone.svg";
 export const service = [
   {
-    name: "Game Development",
+    name: "Mobile Game Development",
     img: myImg,
   },
   {
-    name: "Game Development",
+    name: "PC Game Development",
     img: myImg,
   },
   {
-    name: "Game Development",
+    name: "PS4 Game Development",
     img: myImg,
   },
   {
-    name: "Game Development",
+    name: "AV/VR Solutions",
     img: myImg,
   },
   {
-    name: "Game Development",
+    name: "AV/AR Design",
+    img: myImg,
+  },
+  {
+    name: "3D Modeling",
     img: myImg,
   },
 ];

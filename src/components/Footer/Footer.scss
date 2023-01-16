@@ -55,7 +55,7 @@
           display: flex;
           color: white;
 
-          background-color: #4b4bff;
+          background-color: #ff8500;
           height: 2.5rem;
           margin-right: 0.25rem;
           position: absolute;
@@ -101,7 +101,7 @@
         p {
           margin-bottom: 0.5rem;
           &:hover {
-            color: #4b4bff;
+            color: #ff8500;
             cursor: pointer;
           }
         }
@@ -136,6 +136,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+    opacity: unset;
     color: white;
   }
 }

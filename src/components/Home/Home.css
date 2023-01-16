@@ -120,6 +120,7 @@
   flex-direction: column;
 }
 .home-container .offer-box .offer-item-holder:hover {
+  border-radius: 12px;
   outline: 1px solid #ff8500;
 }
 .home-container .offer-box .offer-item-holder .offer-art {
@@ -231,12 +232,12 @@
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3rem;
 }
 .home-container .projects .project {
   border-radius: 10px;
   overflow: hidden;
-  width: 30%;
+  width: 31%;
   height: 12rem;
   position: relative;
 }
@@ -252,8 +253,7 @@
   z-index: 2rem;
   position: absolute;
   height: 100%;
-  display: none;
-  background-color: rgba(255, 166, 0, 0.496);
+  background-color: rgba(255, 132, 0, 0.2666666667);
 }
 .home-container .projects .project div h5 {
   width: 100%;
@@ -263,7 +263,7 @@
   text-align: center;
   color: white;
   cursor: pointer;
-  background-color: #4b4bff;
+  background-color: #ff8500;
   align-items: center;
   justify-content: center;
 }
@@ -281,6 +281,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+  border-radius: 12px;
   height: 30rem;
 }
 .home-container .hero-end .he-right {
@@ -297,9 +298,10 @@
 .home-container .hero-end .he-right button {
   all: unset;
   color: white;
+  border-radius: 5px;
   padding: 0.7rem 3rem;
   margin-top: 2rem;
-  background-color: #4b4bff;
+  background-color: #ff8500;
   display: flex;
   align-items: center;
   justify-content: center;

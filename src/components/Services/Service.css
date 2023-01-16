@@ -107,6 +107,7 @@
 }
 .service-container .sc-top .service-box {
   display: flex;
+  align-items: center;
   padding: 5rem 0;
   justify-content: space-between;
   height: 40rem;
@@ -123,12 +124,13 @@
 }
 .service-container .sc-top .service-box .text-side .button-sharp {
   all: unset;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.8rem 2rem;
   color: white;
-  background-color: blue;
+  background-color: #ff8500;
   margin-top: 2rem;
 }
 .service-container .sc-top .service-box img {

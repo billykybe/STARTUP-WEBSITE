@@ -2,11 +2,12 @@ import React from "react";
 import "./News.css";
 import searchIC from "../../assets/icon/search-line.svg";
 import imgHolder from "../../assets/image/6.jpg";
+import { data } from "../../assets/json/newsData";
 function News() {
   return (
     <div className="news-container">
       <p className="bc">
-        <span>Home {">"} </span>
+        <span>Home | </span>
         <span className="current-tab">Services</span>
       </p>
       <h2 className="sub-title">
@@ -24,160 +25,32 @@ function News() {
 
       <div className="main-news-body">
         <div className="mnb-left">
-          <div className="article-big-item">
-            <img src={imgHolder} alt="" />
-            <h4>
-              <span className="author-name">Billy Kibet</span>
-              <span>.5min</span>
-            </h4>
-            <h3>This article will be changed after development and it</h3>
+          {data.slice(0, 3).map((item, index) => (
+            <div className="article-big-item" key={index}>
+              <img src={item.img} alt="" />
+              <h4>
+                <span className="author-name">{item.author}</span>
+                <span>{item.time}</span>
+              </h4>
+              <h3>{item.title}</h3>
 
-            <p>
-              Thsi is a random text since i cant find lorem with me and i have
-              to write somthiunf for rhis space wooe am poor at altouch typing
-              and such Thsi is a random text since i cant find lorem with me and
-              i have to write somthiunf for rhis space wooe am poor at altouch
-              typing and such
-            </p>
-          </div>
-          {/* React this */}
-          <div className="article-big-item">
-            <img src={imgHolder} alt="" />
-            <h4>
-              <span className="author-name">Billy Kibet</span>
-              <span>.5min</span>
-            </h4>
-            <h3>This article will be changed after development and it</h3>
-
-            <p>
-              Thsi is a random text since i cant find lorem with me and i have
-              to write somthiunf for rhis space wooe am poor at altouch typing
-              and such Thsi is a random text since i cant find lorem with me and
-              i have to write somthiunf for rhis space wooe am poor at altouch
-              typing and such
-            </p>
-          </div>{" "}
-          <div className="article-big-item">
-            <img src={imgHolder} alt="" />
-            <h4>
-              <span className="author-name">Billy Kibet</span>
-              <span>.5min</span>
-            </h4>
-            <h3>This article will be changed after development and it</h3>
-
-            <p>
-              Thsi is a random text since i cant find lorem with me and i have
-              to write somthiunf for rhis space wooe am poor at altouch typing
-              and such Thsi is a random text since i cant find lorem with me and
-              i have to write somthiunf for rhis space wooe am poor at altouch
-              typing and such
-            </p>
-          </div>
-          {/*  */}
+              <p>{item.mainP}</p>
+            </div>
+          ))}
         </div>
         <div className="mnb-right">
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
+          {data.map((item, index) => (
+            <div className="article-list-item">
+              <img src={item.img} alt="" />
+              <div className="article-details">
+                <h4>
+                  <span className="author-name">{item.author}</span>
+                  <span>.5min</span>
+                </h4>
+                <h3>{item.title}</h3>
+              </div>
             </div>
-          </div>
-          {/* React This */}
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
-            </div>
-          </div>{" "}
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
-            </div>
-          </div>{" "}
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
-            </div>
-          </div>{" "}
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
-            </div>
-          </div>{" "}
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
-            </div>
-          </div>{" "}
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
-            </div>
-          </div>{" "}
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
-            </div>
-          </div>{" "}
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
-            </div>
-          </div>{" "}
-          <div className="article-list-item">
-            <img src={imgHolder} alt="" />
-            <div className="article-details">
-              <h4>
-                <span className="author-name">Billy Kibet</span>
-                <span>.5min</span>
-              </h4>
-              <h3>This article will be changed after development and it</h3>
-            </div>
-          </div>
-          {/*  */}
+          ))}
         </div>
       </div>
     </div>

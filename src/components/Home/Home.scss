@@ -116,6 +116,7 @@
       justify-content: center;
       flex-direction: column;
       &:hover {
+        border-radius: 12px;
         outline: 1px solid #ff8500;
       }
       .offer-art {
@@ -231,11 +232,11 @@
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 3rem;
     .project {
       border-radius: 10px;
       overflow: hidden;
-      width: 30%;
+      width: 31%;
       height: 12rem;
       position: relative;
       img {
@@ -249,8 +250,8 @@
         z-index: 2rem;
         position: absolute;
         height: 100%;
-        display: none;
-        background-color: rgba(255, 166, 0, 0.496);
+        // display: none;
+        background-color: #ff840044;
 
         h5 {
           width: 100%;
@@ -260,7 +261,7 @@
           text-align: center;
           color: white;
           cursor: pointer;
-          background-color: #4b4bff;
+          background-color: #ff8500;
           align-items: center;
           justify-content: center;
         }
@@ -280,6 +281,7 @@
       img {
         object-fit: cover;
         width: 100%;
+        border-radius: 12px;
         height: 30rem;
       }
     }
@@ -296,9 +298,11 @@
       button {
         all: unset;
         color: white;
+        border-radius: 5px;
+
         padding: 0.7rem 3rem;
         margin-top: 2rem;
-        background-color: #4b4bff;
+        background-color: #ff8500;
         display: flex;
         align-items: center;
         justify-content: center;
