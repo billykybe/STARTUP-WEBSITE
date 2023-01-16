@@ -6,7 +6,7 @@
   text-align: center;
 }
 .contact-container .bc .current-tab {
-  color: blue;
+  color: #ff8500;
 }
 .contact-container .sub {
   text-align: center;
@@ -74,11 +74,11 @@
 .contact-container .contacts-holder div:first-child div img {
   all: unset;
   border-radius: 50%;
-  background-color: blue;
+  background-color: rgba(255, 132, 0, 0.2666666667);
   padding: 0.5rem;
 }
 .contact-container .form-holder {
-  background-color: rgb(0, 0, 255);
+  background-color: rgba(186, 186, 186, 0.241);
   margin-top: 5rem;
   display: flex;
   align-items: center;
@@ -86,11 +86,13 @@
   flex-direction: column;
 }
 .contact-container .form-holder h4 {
+  font-size: 1.6rem;
   margin-top: 5rem;
   margin-bottom: 1rem;
 }
 .contact-container .form-holder .inputs-holder {
   width: 45%;
+  padding: 2rem 0;
   margin-top: 3rem;
 }
 .contact-container .form-holder .inputs-holder > * {
@@ -110,19 +112,20 @@
 }
 .contact-container .form-holder .inputs-holder .top-part div input {
   all: unset;
-  height: 2.5rem;
-  outline: 1px solid black;
+  height: 3rem;
+  outline: 1px solid rgba(255, 132, 0, 0.2666666667);
   border-radius: 5px;
   padding-left: 1rem;
   background-color: white;
 }
 .contact-container .form-holder .inputs-holder label {
   margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 .contact-container .form-holder .inputs-holder input {
   all: unset;
-  height: 2.5rem;
-  outline: 1px solid black;
+  height: 3rem;
+  outline: 1px solid rgba(255, 132, 0, 0.2666666667);
   border-radius: 5px;
   width: 100%;
   background-color: white;
@@ -132,7 +135,7 @@
   min-width: 100%;
   min-height: 10rem;
   height: 2.5rem;
-  outline: 1px solid black;
+  outline: 1px solid rgba(255, 132, 0, 0.2666666667);
   border-radius: 5px;
   background-color: white;
 }
@@ -142,6 +145,13 @@
   display: flex;
 }
 .contact-container .form-holder .inputs-holder .btn-holder button {
-  margin-top: 1rem;
-  padding: 0.5rem 2.5rem;
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #ff8500;
+  border-radius: 12px;
+  margin-top: 3rem;
+  padding: 0.8rem 3rem;
 }/*# sourceMappingURL=Contact.css.map */

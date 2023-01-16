@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="contact-container">
       <p className="bc">
-        <span>Home {">"} </span>
+        <span>Home | </span>
         <span className="current-tab">Contact Us</span>
       </p>
       <h2 className="sub-title">

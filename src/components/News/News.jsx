@@ -45,7 +45,7 @@ function News() {
               <div className="article-details">
                 <h4>
                   <span className="author-name">{item.author}</span>
-                  <span>.5min</span>
+                  <span>{item.time}</span>
                 </h4>
                 <h3>{item.title}</h3>
               </div>
