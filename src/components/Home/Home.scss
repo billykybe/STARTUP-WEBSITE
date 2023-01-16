@@ -17,11 +17,11 @@
         font-size: 1.2rem;
         margin-bottom: 1rem;
         font-family: "semi";
-        color: #4b4bff;
+        color: #ff8500;
       }
       h1 {
         font-family: "bold";
-        font-size: 5rem;
+        font-size: 4.5rem;
         text-transform: capitalize;
       }
       p {
@@ -30,16 +30,17 @@
       }
       button {
         all: unset;
-        background-color: #4b4bff;
+        background-color: #ff8500;
+
         color: white;
         padding: 0.8rem 3rem;
         width: max-content;
         margin-top: 2rem;
         border-radius: 25px;
-        outline: 1px solid #4b4bff;
+        outline: 1px solid #ff8500;
         &:hover {
           background-color: white;
-          color: #4b4bff;
+          color: #ff8500;
           cursor: pointer;
         }
       }
@@ -115,13 +116,13 @@
       justify-content: center;
       flex-direction: column;
       &:hover {
-        outline: 1px solid #4b4bff;
+        outline: 1px solid #ff8500;
       }
       .offer-art {
-        width: 3rem;
-        padding: 0.5rem;
-        background-color: #4b4bff;
-        height: 3rem;
+        width: 3.5rem;
+        padding: 0.7rem;
+        background-color: #ff840044;
+        height: 3.5rem;
         border-radius: 50%;
       }
       p {
@@ -137,7 +138,7 @@
 
   .holder-two {
     margin-top: 5rem;
-    background-color: gray;
+    background-color: rgba(186, 186, 186, 0.241);
     padding: 5rem;
 
     .ht-top {
@@ -184,12 +185,13 @@
         border-radius: 12px;
         h3 {
           border-radius: 10px;
-          background-color: olivedrab;
+          background-color: #ff840046;
           width: max-content;
-          color: green;
+          color: #ff8500;
           padding: 0.5rem 2rem;
           font-family: "mid";
         }
+
         p {
           line-height: 1.5rem;
         }
@@ -203,7 +205,7 @@
           p {
             align-items: center;
             display: flex;
-            color: #4b4bff;
+            color: #ff8500;
             width: max-content;
 
             img {

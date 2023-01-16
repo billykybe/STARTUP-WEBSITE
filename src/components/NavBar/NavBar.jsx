@@ -1,14 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./NavBar.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // Images Import
 import locationIC from "../../assets/icon/map25.png";
 import phoneIC from "../../assets/icon/phone.svg";
-import Home from "../Home/Home";
-import Service from "../Services/Service";
-import News from "../News/News";
-// --> Images Importuse
+// --> Images Import use
 import { useNavigate } from "react-router-dom";
 function NavBar() {
   const navigate = useNavigate();

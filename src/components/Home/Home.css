@@ -20,11 +20,11 @@
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-family: "semi";
-  color: #4b4bff;
+  color: #ff8500;
 }
 .home-container .hero-section .hs-left h1 {
   font-family: "bold";
-  font-size: 5rem;
+  font-size: 4.5rem;
   text-transform: capitalize;
 }
 .home-container .hero-section .hs-left p {
@@ -33,7 +33,7 @@
 }
 .home-container .hero-section .hs-left button {
   all: unset;
-  background-color: #4b4bff;
+  background-color: #ff8500;
   color: white;
   padding: 0.8rem 3rem;
   width: -webkit-max-content;
@@ -41,11 +41,11 @@
   width: max-content;
   margin-top: 2rem;
   border-radius: 25px;
-  outline: 1px solid #4b4bff;
+  outline: 1px solid #ff8500;
 }
 .home-container .hero-section .hs-left button:hover {
   background-color: white;
-  color: #4b4bff;
+  color: #ff8500;
   cursor: pointer;
 }
 .home-container .hero-section .hs-right {
@@ -120,13 +120,13 @@
   flex-direction: column;
 }
 .home-container .offer-box .offer-item-holder:hover {
-  outline: 1px solid #4b4bff;
+  outline: 1px solid #ff8500;
 }
 .home-container .offer-box .offer-item-holder .offer-art {
-  width: 3rem;
-  padding: 0.5rem;
-  background-color: #4b4bff;
-  height: 3rem;
+  width: 3.5rem;
+  padding: 0.7rem;
+  background-color: rgba(255, 132, 0, 0.2666666667);
+  height: 3.5rem;
   border-radius: 50%;
 }
 .home-container .offer-box .offer-item-holder p {
@@ -139,7 +139,7 @@
 }
 .home-container .holder-two {
   margin-top: 5rem;
-  background-color: gray;
+  background-color: rgba(186, 186, 186, 0.241);
   padding: 5rem;
 }
 .home-container .holder-two .ht-top {
@@ -187,11 +187,11 @@
 }
 .home-container .holder-two .ht-bottom .ht-bottom-item h3 {
   border-radius: 10px;
-  background-color: olivedrab;
+  background-color: rgba(255, 132, 0, 0.2745098039);
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  color: green;
+  color: #ff8500;
   padding: 0.5rem 2rem;
   font-family: "mid";
 }
@@ -209,7 +209,7 @@
 .home-container .holder-two .ht-bottom .ht-bottom-item div p {
   align-items: center;
   display: flex;
-  color: #4b4bff;
+  color: #ff8500;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;

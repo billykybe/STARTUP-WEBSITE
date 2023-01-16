@@ -5,6 +5,7 @@ import angleNext from "../../assets/icon/chevron-right.svg";
 import anglePrev from "../../assets/icon/angle-left.svg";
 import imgOffer from "../../assets/icon/phone.svg";
 import arrowIC from "../../assets/icon/arrow-right.svg";
+import { service } from "../../assets/json/service.js";
 function Home() {
   return (
     <div className="home-container">
@@ -54,40 +55,14 @@ function Home() {
 
       <div className="offer-box">
         {/*  */}
-        <div className="offer-item-holder">
-          <img className="offer-art" src={imgOffer} alt="" />
-          <p>Mobile Game Development</p>
-          <img className="offer-arrow" src={arrowIC} alt="" />
-        </div>
 
-        {/*  */}
-        <div className="offer-item-holder">
-          <img className="offer-art" src={imgOffer} alt="" />
-          <p>Mobile Game Development</p>
-          <img className="offer-arrow" src={arrowIC} alt="" />
-        </div>
-        <div className="offer-item-holder">
-          <img className="offer-art" src={imgOffer} alt="" />
-          <p>Mobile Game Development</p>
-          <img className="offer-arrow" src={arrowIC} alt="" />
-        </div>
-        <div className="offer-item-holder">
-          <img className="offer-art" src={imgOffer} alt="" />
-          <p>Mobile Game Development</p>
-          <img className="offer-arrow" src={arrowIC} alt="" />
-        </div>
-        <div className="offer-item-holder">
-          <img className="offer-art" src={imgOffer} alt="" />
-          <p>Mobile Game Development</p>
-          <img className="offer-arrow" src={arrowIC} alt="" />
-        </div>
-        <div className="offer-item-holder">
-          <img className="offer-art" src={imgOffer} alt="" />
-          <p>Mobile Game Development</p>
-          <img className="offer-arrow" src={arrowIC} alt="" />
-        </div>
-
-        {/*  */}
+        {service.map((service, index) => (
+          <div className="offer-item-holder">
+            <img className="offer-art" src={service.img} alt="" />
+            <p>{service.name}</p>
+            <img className="offer-arrow" src={arrowIC} alt="" />
+          </div>
+        ))}
       </div>
 
       <div className=" holder-two">

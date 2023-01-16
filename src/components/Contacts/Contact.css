@@ -1,7 +1,3 @@
-* {
-  outline: 1px solid red;
-}
-
 .contact-container {
   padding: 5rem 0;
 }
@@ -23,7 +19,14 @@
   margin-top: 5rem;
   height: 35rem;
 }
+.contact-container .map img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .contact-container .contacts-holder {
+  padding: 0 5rem;
   display: flex;
   margin-top: 3rem;
   justify-content: space-between;
@@ -75,7 +78,7 @@
   padding: 0.5rem;
 }
 .contact-container .form-holder {
-  background-color: blue;
+  background-color: rgb(0, 0, 255);
   margin-top: 5rem;
   display: flex;
   align-items: center;
@@ -87,6 +90,7 @@
   margin-bottom: 1rem;
 }
 .contact-container .form-holder .inputs-holder {
+  width: 45%;
   margin-top: 3rem;
 }
 .contact-container .form-holder .inputs-holder > * {
@@ -102,5 +106,42 @@
   flex-direction: column;
 }
 .contact-container .form-holder .inputs-holder .top-part div label {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+.contact-container .form-holder .inputs-holder .top-part div input {
+  all: unset;
+  height: 2.5rem;
+  outline: 1px solid black;
+  border-radius: 5px;
+  padding-left: 1rem;
+  background-color: white;
+}
+.contact-container .form-holder .inputs-holder label {
+  margin-bottom: 0.5rem;
+}
+.contact-container .form-holder .inputs-holder input {
+  all: unset;
+  height: 2.5rem;
+  outline: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  background-color: white;
+}
+.contact-container .form-holder .inputs-holder textarea {
+  all: unset;
+  min-width: 100%;
+  min-height: 10rem;
+  height: 2.5rem;
+  outline: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+.contact-container .form-holder .inputs-holder .btn-holder {
+  margin-bottom: 5rem;
+  width: 100%;
+  display: flex;
+}
+.contact-container .form-holder .inputs-holder .btn-holder button {
+  margin-top: 1rem;
+  padding: 0.5rem 2.5rem;
 }/*# sourceMappingURL=Contact.css.map */

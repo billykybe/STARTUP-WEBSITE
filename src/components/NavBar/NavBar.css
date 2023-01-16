@@ -35,7 +35,7 @@
   padding: 0 5rem;
   justify-content: space-between;
   align-items: center;
-  background-color: #4b4bff;
+  background-color: #ff8500;
   height: 5rem;
 }
 .navbar-container .bottom-div p {
@@ -61,20 +61,20 @@
 .navbar-container .bottom-div ul li a:hover {
   cursor: pointer;
   background-color: white;
-  color: #4b4bff;
+  color: #ff8500;
 }
 .navbar-container .bottom-div ul li .active-tab {
   display: flex;
   align-items: center;
   background-color: white;
-  color: #4b4bff;
+  color: #ff8500;
 }
 .navbar-container .bottom-div ul li .active-tab::before {
   width: 5px;
   margin-right: 0.5rem;
   height: 5px;
   border-radius: 50%;
-  background-color: #4b4bff;
+  background-color: #ff8500;
   display: block;
   content: "";
 }/*# sourceMappingURL=NavBar.css.map */

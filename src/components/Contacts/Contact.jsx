@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import imgHolder from "../../assets/icon/phone.svg";
+import imgolder from "../../assets/image/6.jpg";
 function Contact() {
   return (
     <div className="contact-container">
@@ -16,7 +17,9 @@ function Contact() {
         Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
       </p>
 
-      <div className="map"></div>
+      <div className="map">
+        <img src={imgolder} alt="" />
+      </div>
       <div className="contacts-holder">
         <div>
           <h3>Follow Us</h3>
