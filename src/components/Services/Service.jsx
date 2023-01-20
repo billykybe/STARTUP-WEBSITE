@@ -19,11 +19,12 @@ function Service() {
           <span className="current-tab">Services</span>
         </p>
         <h2 className="sub-title">
-          This is the service section fix it with cool text
+          Services Our services extend to every aspect of the project
+          development process
         </h2>
 
         <p className="sub">
-          Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
+          Our services extend to every aspect of the project development process
         </p>
 
         <div className="counts-holder">
@@ -59,26 +60,26 @@ function Service() {
           </div>
 
           <div className="video-ditails-div">
-            <h3>This is a title that suits this video</h3>
+            <h3>We create digital services</h3>
             <p>
-              Lorem ipsum and a more presice this is it text and paragraph it
-              for me orem ipsum and a more presice this is it text and paragraph
-              it for me
+              Detail investigation, intuitive design and high quality
+              development let us answer to all client's requests and create
+              in-demand product.
             </p>
 
             <p className="check-it">
               <img src={tick} alt="" />
-              It Is simple and good
+              Research & Analytics
             </p>
             {/*  */}
 
             <p className="check-it">
               <img src={tick} alt="" />
-              It Is simple and good
+              Product design
             </p>
             <p className="check-it">
               <img src={tick} alt="" />
-              It Is simple and good
+              Development & Integration
             </p>
             <p className="check-it">
               <img src={tick} alt="" />
@@ -93,18 +94,13 @@ function Service() {
         {data.map((item, index) => (
           <div className={item.clas}>
             <div className="text-side">
-              <h3>This is a heading like no other from the map</h3>
+              <h3>{item={.}}</h3>
               <p>
-                Lorem iand ais dad This is a heading like no other from the map
-                This is a heading like no other from the map This is a heading
-                like no other from the map This is a heading like no other from
-                the map
+              {item.p1}
               </p>
 
               <p>
-                This is a heading like no other from the map This is a heading
-                like no other from the map This is a heading like no other from
-                the map
+              {item.p2}
               </p>
 
               <button className="button-sharp">Read More</button>

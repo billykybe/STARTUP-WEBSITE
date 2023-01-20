@@ -4,10 +4,11 @@ import social from "../../assets/icon/phone.svg";
 function Footer() {
   return (
     <div className="footer-container">
-      <h3 className="main-h3">Lorem Ipsum Footer</h3>
+      <h3 className="main-h3">HIGHER ENGAGEMENT</h3>
       <p className="main-p">
-        This is the footer text files and more so make it meaning full and more
-        precice to make the footer and the boody stand out
+        We provide technical assistance, that will help you to improve, keep the
+        quality and speed of the launched project like website, app or full
+        product.
       </p>
 
       <div className="loop-div">
@@ -32,8 +33,9 @@ function Footer() {
         <div>
           <h3 className="end-logo">Dev Space</h3>
           <p className="end-p">
-            Lorem ipsum and other stuff really dont matter any more time to
-            shine you frigin neard
+            We provide technical assistance, that will help you to improve, keep
+            the quality and speed of the launched project like website, app or
+            full product.
           </p>
           <p className="copy-right">&copy;billykybe.pages.dev</p>
         </div>
@@ -47,9 +49,7 @@ function Footer() {
         </div>
         <div>
           <h5>About Us</h5>
-          <p>
-            This text is to be replaced with somthin meaning fool for a footrte
-          </p>
+          <p>We provide technical assistance, that will help you to improve.</p>
           <p>+254 12345656 </p>
         </div>
         <div>

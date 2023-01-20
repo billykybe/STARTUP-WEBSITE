@@ -14,8 +14,9 @@ function Home() {
           <p className="biz-cat">Digital Marketing</p>
           <h1>Work that we produce for our clients</h1>
           <p>
-            Work that we produce for our clients ork that we produce for our
-            clients Work that we produce is good and an goog
+            Our team had developed a project from scratch, that helps bloggers
+            and webmasters to monetize online resources and to monitor outgoing
+            traffic.
           </p>
           <button>Get more details</button>
         </div>
@@ -24,17 +25,17 @@ function Home() {
         </div>
       </div>
       <h2 className="sub-title">
-        Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
-        site
+        We immerse in the analytics of your business, in order to determine
+        target audience.
       </h2>
 
       <div className="holder-one">
-        <h3>Lorem Ipsum Title</h3>
+        <h3>Research & Analytics</h3>
         <p>
-          Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
-          site Lorem Ipsum is nothing but dummy text to fill spaces wile
-          developing a site wile developing a site Lorem Ipsum is nothing but
-          dummy text to fill spaces wile developing a site
+          We immerse ourselves in the analytics of your business, in order to
+          study all the subtleties and determine target audience.We immerse
+          ourselves in the analytics of your business, in order to study all the
+          subtleties and determine target audience.
         </p>
         <div className="image-holder-one">
           <img src={heroArt} alt="" className="main-img" />
@@ -43,14 +44,13 @@ function Home() {
       </div>
 
       <h2 className="sub-title">
-        Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
-        site
+        Our developer team easily subdue developments of any complexity
       </h2>
 
       <p className="sub-title-p">
-        Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
-        Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
-        site
+        We know how to create complex and intuitive interface systems that are
+        enjoyable to use.We know how to create complex and intuitive interface
+        systems that are enjoyable to use.
       </p>
 
       <div className="offer-box">
@@ -68,10 +68,10 @@ function Home() {
       <div className=" holder-two">
         <div className="ht-top">
           <div>
-            <h3>Lorem Ipsum Title</h3>
+            <h3>Development & Integration</h3>
             <p>
-              Lorem Ipsum is a is a is a is Ipsum is nothing but dummy text to
-              fill spaces wile developing a
+              Our developer team easily subdue developments of any complexity.
+              We dominate all the cycle of development.
             </p>
           </div>
           <div className="btn-holder">
@@ -168,7 +168,9 @@ function Home() {
       <h2 className="sub-title">Our Recent Projects</h2>
 
       <p className="sub-title-p">
-        Lorem Ipsum is nothing but dummy text to fill spaces wile developing a
+        We provide technical assistance, that will help you to improve, keep the
+        quality and speed of the launched project like website, app or full
+        product.
       </p>
 
       <div className="projects">
@@ -220,13 +222,16 @@ function Home() {
           <h3>Lorem ipsum are dummy text for this page site</h3>
 
           <p>
-            Lorem ipsum and other text don't matter much but this site do and
-            this site don't im poor in touch typing but can type without looking
-            at the keyboard matter and ipsum matters{" "}
+            We provide technical assistance, that will help you to improve, keep
+            the quality and speed of the launched project like website, app or
+            full product.We provide technical assistance, that will help you to
+            improve, keep the quality and speed of the launched project like
+            website, app or full product.
           </p>
           <p>
-            Oww i knew i would end this page within two days but who is
-            responsiveness
+            We provide technical assistance, that will help you to improve, keep
+            the quality and speed of the launched project like website, app or
+            full product.
           </p>
 
           <button className="btn-sharp">Read More </button>
